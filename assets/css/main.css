@@ -1568,6 +1568,7 @@ div.owl-controls, .owl-controls div {
 .list-box {
   overflow: hidden;
   letter-spacing: 0.5px;
+  align-items: center;
 }
 
 .list-box .content h3 {
@@ -2128,7 +2129,7 @@ a.video-play-btn {
 .shop-banner {
   position: relative;
   background-color: var(--bg-color);
-  background-image: url(../img/1.jpg);
+  background-image: url(../img/Untitled-1.png);
   background-size: cover;
   padding: 110px 0px 115px;
 }
@@ -2177,7 +2178,7 @@ a.video-play-btn {
   height: 100%;
   content: "";
   background-size: cover;
-  background-position: center;
+  background-position-y: -48px;
   border-top-left-radius: 5px;
   -webkit-box-shadow: 0 0 20px #cacaca;
   box-shadow: 0 0 20px #cacaca;
@@ -2185,19 +2186,22 @@ a.video-play-btn {
 }
 
 .team-bg-1 {
-  background-image: url(../img/team/team-1.jpg);
+  background-image: url(../img/team/rosavella.jpg);
 }
 
 .team-bg-2 {
-  background-image: url(../img/team/team-2.jpg);
+  background-image: url(../img/team/anis.jpg);
 }
 
 .team-bg-3 {
-  background-image: url(../img/team/team-3.jpg);
+  background-image: url(../img/team/zahra.jpg);
 }
 
 .team-bg-4 {
-  background-image: url(../img/team/team-4.jpg);
+  background-image: url(../img/team/meutia.jpg);
+}
+.team-bg-5 {
+  background-image: url(../img/team/rian.jpg);
 }
 
 .team-bg {
@@ -2882,4 +2886,8 @@ select option:hover {
 }
 .custom-example {
   height: 100%;
+}
+
+.video-promo-bg {
+  width: 90%;
 }
